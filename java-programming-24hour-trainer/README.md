@@ -48,3 +48,14 @@ Anotações gerais
 -- não permite "case" repetido.
 -- se valor do switch for nulo levanta exceção NullPointException.
 -- não suporta range.
+
+### Lesson 6 - Packagess, Interfaces and Encapsulation
+- Modificador de acesso: se não informado é Package (visível às classes do mesmo package). 
+- Variavel "static final" => constante e não permite alterar valor no construtor.
+- Variavel "final" => constante e permite alterar valor no construtor. Exige ser inicializado.
+- Método e Classe com "final" => sealed do C# - não permite sobreescrever
+- Classe "implements" interfaces
+- "Maker Interface" interfaces que não possuem declaracao dentro dela.
+- instanceof => "is" do C#
+- for (Person p: personsArray){ => foreach do C#
+-- não permite usar uma classe diferente do array. Ex: for (Employee p : persons) {..} // erro de compilacao

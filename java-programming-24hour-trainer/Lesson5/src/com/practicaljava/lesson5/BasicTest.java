@@ -69,7 +69,7 @@ public class BasicTest {
 		}
 		
 		
-		String texto = null;
+		String texto = "abc";
 		switch (texto) {
 		case "a":
 			// ..
