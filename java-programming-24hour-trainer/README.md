@@ -3,7 +3,10 @@ Anotações gerais
 
 ### Lesson 1 - Hello World
 - Instalar o JSE JDK (inclui o JRE)
-- Configurar o PATH para a pasta C:\Program Files\Java\jdk1.8.0_05\bin
+- Configurar:
+-- o PATH para a pasta C:\Program Files\Java\jdk1.8.0_05\bin
+-- JAVA_HOME para C:\Program Files\Java\jdk1.8.0_05
+-- CLASSPATH para .;%JAVA_HOME%\bin;%JAVA_HOME%\jre\lib;
 - javac HelloWorld.java (source code) => HelloWorld.class (byte code)
 - javac HelloWorld.java -verbose => exibir detalhes de erro de compilação
 - java HelloWorld => executar o aplicativo
@@ -29,3 +32,19 @@ Anotações gerais
 ### Lesson 4 - Class Methods
 - Snippets:
 -- Construtor padrão: digitar primeira letra da classe e CTRL + Espaço.  => ctor do C# com Visual Studio
+
+### Lesson 5 - Java Basic
+- Array: colchetes antes ou depois está correto. Ex: String[] abc; ou String abc[];
+-- String[] array1 = new String[1];
+-- int[][] array2 = new int[1][1];
+- ArrayList no java.uttil;
+- IDE atalhos: 
+-- excluir linha: CTRL + D => SHIFT + DELETE no Visual Studio
+-- ALT + Shift + R - renomear uma variavel e alterar nos pontos utilizados
+- java.util.logging.Logger - recurso nativo para log em arquivo ou outro destino.
+-- Recomendado usar o nome completo do pacote ou da classe que está logando. Assim permite filtros.
+- Switch: 
+-- até java 7 não era suportado switch com variavel string.
+-- não permite "case" repetido.
+-- se valor do switch for nulo levanta exceção NullPointException.
+-- não suporta range.
