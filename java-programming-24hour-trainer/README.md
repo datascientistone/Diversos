@@ -22,6 +22,10 @@ Anotações gerais
 -- F3 => Go to Definition (F12 do Visual Studio)
 - Auto build no Save
 
-### Lesson 3 - Class Methods
+### Lesson 3 - OOP
 - super => é o "base" do C#, acionando a classe Base no construtor ou sobrecarga de método.
 - super => no construtor tem que ser a primeira coisa a ser chamada. Se não informado o super é chamado automaticamente.
+
+### Lesson 4 - Class Methods
+- Snippets:
+-- Construtor padrão: digitar primeira letra da classe e CTRL + Espaço.  => ctor do C# com Visual Studio
