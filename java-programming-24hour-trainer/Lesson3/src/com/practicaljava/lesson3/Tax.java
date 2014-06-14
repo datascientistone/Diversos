@@ -1,0 +1,23 @@
+package com.practicaljava.lesson3;
+
+public class Tax {
+	double grossIncome;
+	String state;
+	int dependents;
+	
+	public Tax() {
+		System.out.println("Constructor Tax");
+	}
+	
+	public double calcTax() {
+		double stateTax = 0;
+		if (grossIncome < 30000) {
+			stateTax = grossIncome * 0.05;
+		}
+		else {
+			stateTax = grossIncome * 0.06;
+		}
+		
+		return stateTax;
+	}
+}

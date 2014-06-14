@@ -2,6 +2,7 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1402710970243_1" label="java-programming-24hour-trainer" name="java-programming-24hour-trainer">
 <item elementID="=Hello" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lesson3" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1402710895162_0" label="Window Working Set" name="Aggregate for window 1402710895162"/>
 <mruList name="java-programming-24hour-trainer"/>
