@@ -32,6 +32,7 @@ Anotações gerais
 ### Lesson 4 - Class Methods
 - Snippets:
 -- Construtor padrão: digitar primeira letra da classe e CTRL + Espaço.  => ctor do C# com Visual Studio
+-- sysout, CTRL + SPACE => System.out.println
 
 ### Lesson 5 - Java Basic
 - Array: colchetes antes ou depois está correto. Ex: String[] abc; ou String abc[];
@@ -59,3 +60,7 @@ Anotações gerais
 - instanceof => "is" do C#
 - for (Person p: personsArray){ => foreach do C#
 -- não permite usar uma classe diferente do array. Ex: for (Employee p : persons) {..} // erro de compilacao
+
+### Lesson 7 - Programming with abstract Classes and interfaces
+- @Override (annotation) => override do C#
+- 
