@@ -1,0 +1,6 @@
+
+- Eclipse IDE (eclipse.org) - é um Zip. Versões: Uno, Helios, Kepler, etc
+- IDE Workspace (solution e preferências) / WorkingSet (filtro / agrupador)
+- IDE Perspective: Java EE, Java, etc.
+- IDE Views: Server, Tasks, Package Explorer, etc.
+- Pastas: bin para .class e src para .java

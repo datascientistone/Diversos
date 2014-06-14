@@ -1,0 +1,12 @@
+
+- Eclipse IDE (eclipse.org) - é um Zip. Versões: Uno, Helios, Kepler, etc
+- IDE Workspace (solution e preferências) / WorkingSet (filtro / agrupador)
+- IDE Perspective (conjunto de Views). Exemplo: Java EE, Java, etc.
+- IDE Views: Server, Tasks, Package Explorer, etc.
+- Package Name (namespace): reverse domain name (br.com.rafaelleonhardt.lesson2) 
+- Package folder : src/br/com/rafaelleonhardt/lesson2
+- Pastas: bin para .class (byte code) e src para .java (source code)
+- .jar - equivalente ao .dll
+- IDE Atalhos
+-- CTRL + F6 => (CTRL + TAB do Visual Studio)
+-- F3 => Go to Definition (F12 do Visual Studio)
