@@ -64,3 +64,6 @@ Anotações gerais
 ### Lesson 7 - Programming with abstract Classes and interfaces
 - @Override (annotation) => override do C#
 - 
+
+### Lesson 13 - Error Handling
+- CTRL + 1 - gerar código e resolver problemas como falta de "import".
