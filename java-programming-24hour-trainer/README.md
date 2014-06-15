@@ -67,3 +67,16 @@ Anotações gerais
 
 ### Lesson 13 - Error Handling
 - CTRL + 1 - gerar código e resolver problemas como falta de "import".
+- Classe base de Exception: Throwable.
+
+
+### Lesson 14 - Collections
+- java.util e java.util.concurrent - coleções
+- Vector (thread synchronization) e ArrayList - somente Objects (tipos basicos serão convertidos - boxing)
+- // OK   - ArrayList<Integer> inteiros = new ArrayList<Integer>(); (object)
+- // ERRO - ArrayList<int> ints = new ArrayList<int>();
+- // ERRO - inteiros[0].toString(); --- ArryaList não acessa via []. Usa-se o "get(indice)"
+- Interface Set não permite item duplicado. (HashSet e SortedSet)
+- Map é o Dictionary do C#. (Hashtable e HashMap)
+- Interface Queue (LinkedList); Enumeration (readonly); Iterator (tem Delete);
+- Para Queue e Stack usa-se LinkedList
