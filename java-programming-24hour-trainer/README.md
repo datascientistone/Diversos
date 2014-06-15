@@ -3,6 +3,7 @@ Anotações gerais
 
 ### Lesson 1 - Hello World
 - Instalar o JSE JDK (inclui o JRE)
+- Instalar o Java EE e JDK 7 e GlassFish 4
 - Download e install javadoc offline (download e configuração em Preferences - .zip) .
 - Configurar:
 -- o PATH para a pasta C:\Program Files\Java\jdk1.8.0_05\bin
@@ -95,4 +96,9 @@ Anotações gerais
 - * @author ----- o @ é do Javadoc.
 - permite Annotation em variável
 - java.* (padrão) - javax.* (extensões)
-- 
+
+
+### Lesson 26 - Java EE Overview
+- Java Community Process (JCP) - http://jcp.org
+- Java Specification Request (JSR) - proposta de especificação
+- "profile" implementação de parte do Java EE (ex: Profile Web - web container).
