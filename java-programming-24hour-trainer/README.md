@@ -3,10 +3,12 @@ Anotações gerais
 
 ### Lesson 1 - Hello World
 - Instalar o JSE JDK (inclui o JRE)
+- Download e install javadoc offline (download e configuração em Preferences - .zip) .
 - Configurar:
 -- o PATH para a pasta C:\Program Files\Java\jdk1.8.0_05\bin
 -- JAVA_HOME para C:\Program Files\Java\jdk1.8.0_05
 -- CLASSPATH para .;%JAVA_HOME%\bin;%JAVA_HOME%\jre\lib;
+-- o src.zip para o F3 funcionar (Windows > Preferences > Java > Installed JREs > selecionar e editar > selecionar tudo e Source Attachment > src.zip do JDK)
 - javac HelloWorld.java (source code) => HelloWorld.class (byte code)
 - javac HelloWorld.java -verbose => exibir detalhes de erro de compilação
 - java HelloWorld => executar o aplicativo
@@ -80,3 +82,17 @@ Anotações gerais
 - Map é o Dictionary do C#. (Hashtable e HashMap)
 - Interface Queue (LinkedList); Enumeration (readonly); Iterator (tem Delete);
 - Para Queue e Stack usa-se LinkedList
+- ArrayList<? extends Data> data) => o ": where" do Generic do C#
+
+### Lesson 22 - Working with Databases using JDBC
+- java.sql e javax.sql
+- open-source DBMS called JavaDB (also known as Derby)
+- ResultSet => DataReader do C#; conexao.createStatement => DbCommand do C#; 
+- PreparedStatement quando executado várias vezes o mesmo comando; CallableStatement para Stored Procedure;
+- Parâmetros por índice: "SELECT * from Employee WHERE empno=? and ename=?”
+
+### Lesson 24 - Annotations and Reflection
+- * @author ----- o @ é do Javadoc.
+- permite Annotation em variável
+- java.* (padrão) - javax.* (extensões)
+- 
