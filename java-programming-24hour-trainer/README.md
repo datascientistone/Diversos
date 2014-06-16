@@ -5,6 +5,7 @@ Anotações gerais
 - Instalar o JSE JDK (inclui o JRE)
 - Instalar o Java EE e JDK 7 e GlassFish 4
 - Download e install javadoc offline (download e configuração em Preferences - .zip) .
+- Baixar o GlassFish em ZIP. A versão instalada com o JDK dá erro no Eclipse.
 - Configurar:
 -- o PATH para a pasta C:\Program Files\Java\jdk1.8.0_05\bin
 -- JAVA_HOME para C:\Program Files\Java\jdk1.8.0_05
@@ -102,3 +103,8 @@ Anotações gerais
 - Java Community Process (JCP) - http://jcp.org
 - Java Specification Request (JSR) - proposta de especificação
 - "profile" implementação de parte do Java EE (ex: Profile Web - web container).
+
+### Lesson 34 - REST com JAX-RS
+- Jersey é uma das implementações do JAX-RS. O Glassfish já vem com Jersey.
+-- Outras implementações: Apache Wink and JBoss RESTEasy.
+- 
